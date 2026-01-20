@@ -1,0 +1,16 @@
+name: SimpleChestShopRU
+main: ru.alex.shop.SimpleChestShopPlugin
+version: 1.0.0
+api-version: '1.21'
+author: Alex
+commands:
+  sshopreload:
+    description: Reload SimpleChestShopRU config.
+    permission: simplechestshop.admin
+permissions:
+  simplechestshop.create:
+    default: true
+  simplechestshop.use:
+    default: true
+  simplechestshop.admin:
+    default: op
