@@ -1,0 +1,20 @@
+# SimpleChestShopRU config
+# Цвета: используйте &a &c &e и т.д.
+
+currency:
+  material: DIAMOND
+  name: "Алмазов"
+
+messages:
+  prefix: "&a[Магазин]&r "
+  created: "&aМагазин создан! Цена: &e%price% %currency%&a. Товар: &e%item% x%amount%&a."
+  created_need_price: "&cВо 2 строке должна быть цена числом (например: 27)."
+  created_need_chest: "&cРядом должен быть сундук (вплотную)!"
+  created_need_item: "&cВ сундуке нет товара для продажи!"
+  no_permission: "&cНет прав."
+  not_enough_currency: "&cУ вас недостаточно %currency%!"
+  out_of_stock: "&cВ магазине сейчас нет товара!"
+  paid_to_chest_full: "&eСундук продавца заполнен, валюта выброшена рядом."
+  owner_cant_buy: "&cНельзя покупать у самого себя."
+  removed: "&aМагазин удалён."
+  break_denied: "&cНельзя ломать табличку магазина! (нужны права admin)"
