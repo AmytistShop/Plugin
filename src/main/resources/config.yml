@@ -1,0 +1,28 @@
+currency:
+  material: DIAMOND
+  name: "Алмазов"
+
+sign:
+  line1: "&f[&aМагазин&f]"
+  line2: "&f%owner%"
+  line3: "&c%item% x%amount%"
+  line4: "&7Цена: &f%price% &7%currency%/шт."
+  glow: true # эффект "светящийся текст" как от Glow Ink Sac
+  # Можно окрасить текст таблички (DyeColor): WHITE, BLACK, RED, BLUE, YELLOW, GREEN, ...
+  # Если пусто - не трогаем цвет.
+  text-color: "" 
+
+messages:
+  prefix: "&a[Магазин]&r "
+  created: "&aМагазин создан! Цена: &e%price% %currency%&a, кол-во: &e%amount%&a."
+  updated: "&aМагазин обновлён! Цена: &e%price% %currency%&a, кол-во: &e%amount%&a."
+  refreshed: "&aТабличка магазина обновлена."
+  need_look_chest: "&cСмотри на сундук."
+  need_price_amount: "&cИспользуй: &e/shop set <цена> <кол-во>"
+  need_item_in_chest: "&cВ сундуке нет товара для продажи!"
+  bought: "&aПокупка: &e%item% x%amount%&a за &e%price% %currency%&a."
+  not_enough_currency_close: "&cНедостаточно %currency% для покупки!"
+  out_of_stock: "&cВ магазине нет товара!"
+  chest_full_drop: "&eСундук продавца заполнен, валюта выброшена рядом."
+  break_denied: "&cТолько владелец может ломать табличку магазина!"
+  removed: "&aМагазин удалён."
